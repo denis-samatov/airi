@@ -1,6 +1,6 @@
 # DreamerV3 CartPole-v1 Experiments
 
-A showcase of training and evaluating DreamerV3 (and PPO) on the CartPole-v1 environment using Eclectic-Sheep's SheepRL (`sheelprl`) framework.
+A showcase of training and evaluating DreamerV3 (and PPO) on the CartPole-v1 environment using Eclectic-Sheep's SheepRL (`sheeprl`) framework.
 
 ---
 
@@ -42,6 +42,10 @@ Key components are listed in `requirements.txt`:
 - `gymnasium`, `gymnasium[atari]`, `dm_control`: environments
 - `torchvision`, `moviepy`, `opencv-python`: image/video utilities
 - `python-dotenv`, `tensorboard`: logging and environment
+
+`sheeprl` itself is **not** in `requirements.txt` — it is not pip-installed. Per
+[Usage](#usage) below, you clone `Eclectic-Sheep/sheeprl` and run its `sheeprl.py`
+CLI directly from inside the clone.
 
 Install all with:
 
