@@ -15,6 +15,7 @@ A showcase of training and evaluating DreamerV3 (and PPO) on the CartPole-v1 env
   - [Visualize with TensorBoard](#visualize-with-tensorboard)
 - [Directory Structure](#directory-structure)
 - [Results](#results)
+- [Status](#status)
 
 ---
 
@@ -131,4 +132,12 @@ results/
 ```
 
 You can play these `.mp4` files to review agent behaviors.
+
+**No quantitative comparison data was retained**: no reward curves, learning curves, seeds, or hyperparameters for either run were kept, so this repo cannot support a rigorous DreamerV3-vs-PPO comparison -- only qualitative video evidence of each agent's behavior.
+
+---
+
+## Status
+
+This repository is **archived**. For a more complete, actively maintained treatment of reinforcement learning, see [`reinforcement_learning_course`](https://github.com/denis-samatov/reinforcement_learning_course).
 
