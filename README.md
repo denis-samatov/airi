@@ -139,5 +139,9 @@ You can play these `.mp4` files to review agent behaviors.
 
 ## Status
 
-This repository is **archived**. For a more complete, actively maintained treatment of reinforcement learning, see [`reinforcement_learning_course`](https://github.com/denis-samatov/reinforcement_learning_course).
+This repository preserves a historical qualitative experiment. For a more complete, actively maintained treatment of reinforcement learning, see [`reinforcement-learning-course`](https://github.com/denis-samatov/reinforcement-learning-course).
 
+
+## Future experiment provenance
+
+This historical experiment is qualitative evidence only. Do not reconstruct reward curves, seeds or budgets from selected videos. New experiments belong in the maintained course repository and should retain the protocol in [EXPERIMENT_MANIFEST.md](EXPERIMENT_MANIFEST.md). That template is a future capture checklist, not a claim that historical missing artifacts have been recovered.
